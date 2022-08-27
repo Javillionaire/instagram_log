@@ -82,7 +82,7 @@ class _SignUpState extends State<SignUp> {
                         borderRadius: BorderRadius.circular(20)),
                     onPressed: _signIn,
                     color: Colors.blue,
-                    child: const Text('Sign In'),
+                    child: const Text('Sign Up'),
                   ),
                 ),
                 Row(
@@ -99,7 +99,7 @@ class _SignUpState extends State<SignUp> {
                         Navigator.of(context).pushNamed('/signin');
                       },
                       child: const Text(
-                        'Log In',
+                        'Sign In',
                         style: TextStyle(fontWeight: FontWeight.bold),
                       ),
                     )
