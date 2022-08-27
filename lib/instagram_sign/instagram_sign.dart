@@ -64,6 +64,8 @@ class _SignInState extends State<SignIn> {
                       const EdgeInsets.symmetric(horizontal: 30, vertical: 15),
                   width: MediaQuery.of(context).size.width,
                   child: MaterialButton(
+                    shape: RoundedRectangleBorder(
+                        borderRadius: BorderRadius.circular(20)),
                     onPressed: _signIn,
                     color: Colors.blue,
                     child: const Text('Sign In'),
